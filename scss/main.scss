@@ -148,6 +148,14 @@ nav{
                 margin: 2px;
                 label{
                     box-shadow:none;
+                    &:hover{
+                    box-shadow: none;
+                    background-color: rgb(80, 114, 226);
+                    }
+                    &:hover ~ input{
+                        box-shadow: none;
+                        // background-color: rgb(55, 91, 211);
+                    }
                 }
                 input{
                     box-shadow:none;
