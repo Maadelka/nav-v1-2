@@ -146,6 +146,12 @@ nav{
                 position: absolute;
                 top: 10px;
                 margin: 2px;
+                label{
+                    box-shadow:none;
+                }
+                input{
+                    box-shadow:none;
+                }
             }
             .login{
                 width: 50%;
