@@ -9,16 +9,6 @@ body{
     height: 1000px;
 }
 
-
-
-
-
-
-
-
-
-
-
 // --------------------------------------------------------------------------navbar
 nav{
     @include disp-flex();
@@ -36,9 +26,7 @@ nav{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             padding: 5px;
             font-size: 2rem;
-            transition: .20s;
-            
-            
+            transition: .20s; 
         }
     }
     //bungkus
@@ -117,7 +105,6 @@ nav{
                     color: rgb(0, 235, 51);
                     box-shadow: 2px 2px 3px  rgb(2, 10, 48);
                     // transform: scale(1.1);
-
                 }
             }
         }
@@ -126,7 +113,6 @@ nav{
         display: none;
         width: 0;
     }
-
 
     // ---------------------------------------------media query / responsive
     @media only screen and (max-width: 768px) {
