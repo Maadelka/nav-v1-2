@@ -344,6 +344,12 @@ nav .bks-tmb {
   nav .bks-tmb img {
     width: 40px;
     cursor: pointer;
+    -webkit-transition: .30s;
+    transition: .30s;
+  }
+  nav .bks-tmb .putar {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
   }
 }
 
